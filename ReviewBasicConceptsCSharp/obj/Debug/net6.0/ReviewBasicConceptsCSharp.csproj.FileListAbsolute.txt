@@ -1,0 +1,15 @@
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\bin\Debug\net6.0\ReviewBasicConceptsCSharp.exe
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\bin\Debug\net6.0\ReviewBasicConceptsCSharp.deps.json
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\bin\Debug\net6.0\ReviewBasicConceptsCSharp.runtimeconfig.json
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\bin\Debug\net6.0\ReviewBasicConceptsCSharp.dll
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\bin\Debug\net6.0\ReviewBasicConceptsCSharp.pdb
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ReviewBasicConceptsCSharp.csproj.AssemblyReference.cache
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ReviewBasicConceptsCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ReviewBasicConceptsCSharp.AssemblyInfoInputs.cache
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ReviewBasicConceptsCSharp.AssemblyInfo.cs
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ReviewBasicConceptsCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ReviewBasicConceptsCSharp.dll
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\refint\ReviewBasicConceptsCSharp.dll
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ReviewBasicConceptsCSharp.pdb
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ReviewBasicConceptsCSharp.genruntimeconfig.cache
+C:\Users\Enrique Terrero\Documents\Review C#\ReviewBasicConceptsCSharp\ReviewBasicConceptsCSharp\obj\Debug\net6.0\ref\ReviewBasicConceptsCSharp.dll
