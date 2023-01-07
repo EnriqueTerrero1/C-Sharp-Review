@@ -49,3 +49,81 @@ int salary = Convert.ToInt32(amount);
 
 
 
+
+//WORKING WITH STRING 
+// is good to know that a string is a array of character
+
+
+//Substring,IndexOf,LastIndexOf, string methods
+
+//Substring method 
+
+string testString = "this is some string to use it for our example";
+
+//with variableString.substring(int)  this method is going to return you
+// a new string from the int lenght to the lenght n-1;
+string partWithoutLength = testString.Substring(10);
+
+
+string partWithLength = testString.Substring(5,10);
+
+Console.WriteLine(partWithoutLength);
+Console.WriteLine(partWithLength);
+
+//IndexOf
+
+int charPosition = testString.IndexOf('i');
+Console.WriteLine(charPosition);
+int stringPosition = testString.IndexOf("some");
+Console.WriteLine(stringPosition);
+int charPosWithtartIndex = testString.IndexOf('s', 10);
+Console.WriteLine(charPosWithtartIndex);
+int stringPosWithStartIndex = testString.IndexOf("some", 10);
+
+int lasPosition = testString.LastIndexOf('o');
+
+
+
+//Constains,StartsWith,EndsWith
+
+bool containsResult = testString.Contains("for");
+
+bool startWithResults = testString.StartsWith('t');
+bool endWithResults = testString.EndsWith("example");
+
+// Remove,Insert
+
+string loweredString = testString.Remove(10);
+string loweredStringWithCount = testString.Remove(10, 9);
+
+
+string stringWithInsert = testString.Insert(13, "Updated");
+
+Console.WriteLine(stringWithInsert);
+
+
+/// real examples
+
+Console.WriteLine("Enter your full name");
+string fullName = Console.ReadLine();
+
+int blankPosition = fullName.IndexOf(' ');
+string name = fullName.Substring(0, blankPosition);
+string lastName = fullName.Substring(blankPosition+1);
+Console.WriteLine(lastName);
+
+
+Console.WriteLine("Enter a sentence");
+
+string completeSentence = Console.ReadLine();
+
+int firstSpace = completeSentence.IndexOf(' ');
+
+completeSentence = completeSentence.Remove(0, firstSpace+1);
+
+int lastSpace = completeSentence.LastIndexOf(' ');
+
+completeSentence = completeSentence.Remove(lastSpace);
+
+Console.WriteLine(completeSentence);
+
