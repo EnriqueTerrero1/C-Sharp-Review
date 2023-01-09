@@ -105,7 +105,7 @@ Console.WriteLine(stringWithInsert);
 /// real examples
 
 Console.WriteLine("Enter your full name");
-string fullName = Console.ReadLine();
+/*string fullName = Console.ReadLine();
 
 int blankPosition = fullName.IndexOf(' ');
 string name = fullName.Substring(0, blankPosition);
@@ -125,5 +125,108 @@ int lastSpace = completeSentence.LastIndexOf(' ');
 
 completeSentence = completeSentence.Remove(lastSpace);
 
-Console.WriteLine(completeSentence);
+//Console.WriteLine(completeSentence);*/
+
+
+/*try
+{
+
+    Console.WriteLine("Enter a number");
+    int number = int.Parse(Console.ReadLine());
+    Console.WriteLine(Math.Sqrt(number));
+
+}
+catch(Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}*/
+
+
+
+//PROTECTED ACCESS
+
+/*class NumberClass
+{
+    protected int number = 10;
+}
+class DerivedClass : NumberClass
+{
+   public void Print()
+    {
+        Console.WriteLine(number);
+    }
+}
+
+class program
+{
+    void Print()
+    {
+        DerivedClass num = new DerivedClass();
+        num.Print();
+    }
+}
+
+
+
+     static void ChangeAndWrite(int number)
+{
+    number = 10;
+    Console.WriteLine($"Inside ChangeAndWrite method, number value is :{number}");
+}
+
+    static void ChangeRef(ref int numberRef)
+{
+    numberRef = 25;
+    Console.WriteLine($"Inside the ChangeRef method the numberRef is {numberRef}");
+
+}
+    static void ChangeOut(out int numberOut)
+{
+    numberOut = 60;
+    Console.WriteLine($"Inside the changeOut method the numberOut is {numberOut}"); 
+}
+       
+            int number = 5;
+            Console.WriteLine($"value of the number prior to ChangeAndWrite call is: {number}");
+            ChangeAndWrite(number);
+            Console.WriteLine($"Value of the number after the ChangeAndWrite call is: {number}");
+
+int numberRef = 15;
+Console.WriteLine($"Before calling the ChangeRef " +
+    $"method the numberRef is {numberRef}");
+ChangeRef(ref numberRef);
+Console.WriteLine($"Atfer calling the ChangeRef method the numberRef is{numberRef}");
+
+int numberOut;
+
+Console.WriteLine("Before calling the ChangeOut method the numberOut is unassigned ");
+ChangeOut(out numberOut);
+Console.WriteLine($"After calling the changeOut method the numberOut is {numberOut} ");
+*/
+
+//RECURSION AND RECURSIVE METHODS
+
+
+static int CalculateSumRecursively(int n , int m)
+{
+
+    int sum = n;
+    if(n< m)
+    {
+        n++;
+        return sum += CalculateSumRecursively(n, m);
+    }
+    return sum;
+}
+
+Console.WriteLine("Enter number n: ");
+int n = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter number m:");
+int m = int.Parse(Console.ReadLine());
+
+int sum = CalculateSumRecursively(n, m);
+
+Console.WriteLine(sum);
+
+
 
