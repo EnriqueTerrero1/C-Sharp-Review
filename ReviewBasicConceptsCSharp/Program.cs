@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using ReviewBasicConceptsCSharp;
+
 Console.WriteLine("Implicit conversion");
 
 double xb = 12.45;
@@ -228,5 +230,102 @@ int sum = CalculateSumRecursively(n, m);
 
 Console.WriteLine(sum);
 
+//
 
 
+ int CountDivisions(double number){
+
+    int count = 0;
+    if(number>0 &&number%2 == 0)
+    {
+        count++;
+        number /= 2;
+        return count += CountDivisions(number);
+    }
+
+    return count;
+}
+
+
+Console.WriteLine("Enter your number: ");
+double number = double.Parse(Console.ReadLine());
+
+int count = CountDivisions(number);
+Console.WriteLine($"Total number of divisions: {count}");
+
+Console.ReadKey();
+
+
+//array
+
+int[] numbers;
+numbers = new int[8] { 0, 1, 2, 3, 4, 5, 6, 7 };
+
+Person[]Persons = new Person[]{
+
+new Person()
+{
+    id = 1,
+    nombre = "Enrique",
+    edad = 23,
+},
+new Person()
+{
+    id = 2,
+    nombre = "Enrique2",
+    edad = 23,
+},
+new Person()
+{
+    id = 3,
+    nombre = "Enrique3",
+    edad = 23,
+},
+
+    };
+
+
+for(int i = 0; i < Persons.Length; i++)
+{
+    Console.WriteLine(Persons[i].nombre);
+}
+
+
+
+string path = @"C:\Users\Enrique Terrero\Desktop\prueba1.txt";
+
+string content = "Example content  as a string message";
+
+//File.WriteAllText(path, content);
+
+
+string[] contentArray = new string[3]
+{
+    "Example content as a string message",
+    "Another string text",
+    "the las string",
+};
+
+//File.WriteAllLines(path, contentArray);
+
+///string readAllText = File.ReadAllText(path);
+
+///Console.WriteLine(readAllText);
+
+//File.Delete(path);
+
+
+CollectionInitializer<int> initializer = new CollectionInitializer<int>(5);
+
+initializer.AddElementsToCollection(5, 4, 3, 2, 2);
+
+int[] collection = initializer.RetrieveAllElements();
+int number3 = initializer.RetrieveElementOnIndex(3);
+
+foreach(int element in collection)
+{
+    Console.WriteLine(element);
+
+}
+
+Console.WriteLine($"Element on the selected index is :{number}");
